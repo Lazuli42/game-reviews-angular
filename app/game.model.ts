@@ -1,4 +1,5 @@
 export class Game {
+  public displayDetails: boolean = false;
   constructor(
     public name: string,
     public genre: string,
