@@ -8,7 +8,6 @@ import {Game} from './game.model';
 
 export class GenreFilterPipe implements PipeTransform {
   transform(input: Game[], selectedGenre) {
-    console.log(selectedGenre);
     var output = [];
     if (selectedGenre != null) {
       var lowSelectedGenre = selectedGenre.toLowerCase();
